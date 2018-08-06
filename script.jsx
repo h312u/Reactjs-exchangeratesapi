@@ -167,7 +167,9 @@ var ExchangeForm = React.createClass({
     return (
       <form onSubmit={this.submit}>
         <br/>
-        <input type="text" ref="name"/>&nbsp;
+        <span>Put one of this : USD CAD IDR GBP EUR CHF SGD INR MYR JPY KRW </span>
+        <br/>
+        <input type="text" ref="name" placeholder=""/>&nbsp;
         <button>Submit</button>
       </form>
     );
